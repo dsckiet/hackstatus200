@@ -90,8 +90,8 @@ button:hover, .btn:hover, .btn:visited, .btn:active{
     top: 0%;
     left: 0%;
     background-color:white;
-    padding-top: 4%; 
-    padding-left: 10%; 
+    padding-top: 2%;
+    padding-left: 10%;
     padding-right: 10%;
     transition: all 0.6s;
 }
@@ -105,13 +105,13 @@ button:hover, .btn:hover, .btn:visited, .btn:active{
 
 @media screen and (max-width: 992px){
     #mainNav{
-        padding-left: 4%; 
+        padding-left: 4%;
         padding-right: 4%;
     }
 
     .navbar-list{
-        border-bottom:2px solid rgb(212, 212, 212); 
-        border-top:2px solid rgb(212, 212, 212); 
+        border-bottom:2px solid rgb(212, 212, 212);
+        border-top:2px solid rgb(212, 212, 212);
         padding-bottom: 4%;
         margin-top: 2%;
     }
@@ -176,7 +176,7 @@ background-color: #555;
 } */
 
 .navbar-img{
-    width: 200px
+    width: 10vw
 }
 
 /* .navbar-img{
@@ -202,7 +202,7 @@ background-color: #555;
     }
 
     .navbar-img{
-        width: 60%;
+        width: 40%;
     }
 }
 
@@ -223,7 +223,7 @@ background-color: #555;
     .pointer-svg{
         width: 10%;
     }
-    
+
     .calendar-svg{
         width: 12%;
     }
@@ -241,7 +241,7 @@ background-color: #555;
     .pointer-svg{
         width: 12%;
     }
-    
+
     .calendar-svg{
         width: 14%;
     }
@@ -277,12 +277,12 @@ background-color: #555;
 .landing-page{
     height: 100vh;
     width: 100vw;
-    min-height: 600px;
+    /* min-height: 600px; */
     transition: 2s all;
 }
 
 .commitment{
-    padding-top: 15%;
+    padding-top: 5%;
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
@@ -329,7 +329,7 @@ background-color: #555;
 
 .landing-contents{
     position: relative;
-    top: 50%;
+    top: 40%;
     transform: translate(0, -32%);
     width: 35%;
 }
@@ -345,7 +345,12 @@ background-color: #555;
     left: 50%;
     transform: translate(-50%, 0);
 }
-
+.logo-img-1{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 .landing-nav-btn{
     width: 90%;
     height: 100%;
@@ -495,7 +500,7 @@ background-color: #555;
 
 @media screen and (max-width: 992px){
     .commitment-text{
-        margin-right: 10%; 
+        margin-right: 10%;
     }
 }
 
@@ -516,7 +521,7 @@ background-color: #555;
 
 .about-text{
     text-align: left;
-    margin-right: 10%; 
+    margin-right: 10%;
     margin-left: 16%;
     position: relative;
     top: 50%;
@@ -524,7 +529,7 @@ background-color: #555;
 }
 
 .about-video{
-    width: 40%;
+    width: 50%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
@@ -675,7 +680,7 @@ background-color: #555;
 .sponsor-us{
     padding-top: 5%;
     padding-bottom: 5%;
-    background: linear-gradient(to right, #6C63FF 0%, #FF6C56 60%, #FFDB2E 100%); 
+    background: linear-gradient(to right, rgb(230, 34, 34) 0%, rgb(49, 100, 209) 60%, #FFDB2E 100%);
 }
 
 .sponsor-us-row{
@@ -937,8 +942,8 @@ background-color: #555;
 .speaker-row {
     margin-left: 10%;
     margin-right: 10%;
-    /* padding-left: 8%;  
-    padding-right: 8%;  
+    /* padding-left: 8%;
+    padding-right: 8%;
     align-items: center;
     text-align: center;
     width: 100%; */
@@ -990,11 +995,11 @@ background-color: #555;
     .speaker-company {
         font-size: 14px;
     }
-    
+
     .speaker-name {
         font-size: 14px;
     }
-    
+
     .speaker-about {
         font-size: 14px;
     }
@@ -1021,7 +1026,7 @@ background-color: #555;
 /*-------- Timeline Section starts  ----------*/
 
 .timeline{
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 10%;
   padding-right: 10%;
   padding-left: 10%;
@@ -1059,8 +1064,8 @@ background-color: #555;
   .timeline{
     padding-left: 2%;
     padding-right: 2%;
-  } 
-  
+  }
+
   .winner-timeline-img {
       height: 75%;
       top: 0%;
@@ -1089,7 +1094,7 @@ background-color: #555;
 
 @media screen and (max-width: 768px){
   .timeline{
-      padding-top: 20%;
+      padding-top: 0%;
       padding-bottom: 20%;
   }
 }
@@ -1122,14 +1127,14 @@ background-color: #555;
 
 #hint-apply-now {
   fill: #323232;
-  border-color: #323232; 
+  border-color: #323232;
   color:#323232;
 }
 
 #hint-apply-now:active:focus {
   fill: #fff;
   color: #fff
-} 
+}
 
 
 .prizes{
@@ -1249,7 +1254,7 @@ background-color: #555;
     -moz-text-fill-color: transparent;
 } */
 
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
     .image-text{
         position: relative;
         left: 50%;
@@ -1545,7 +1550,7 @@ background-color: #555;
     .mentor-name{
         font-size: 25px;
     }
-    
+
     .mentor-designation{
         font-size: 20px;
     }
@@ -1603,8 +1608,8 @@ background-color: #555;
 .project-row {
     margin-left: 10%;
     margin-right: 10%;
-    /* padding-left: 8%;  
-    padding-right: 8%;  
+    /* padding-left: 8%;
+    padding-right: 8%;
     align-items: center;
     text-align: center;
     width: 100%; */
@@ -1642,12 +1647,12 @@ background-color: #555;
 
 .project {
     padding-top: 2%;
-    padding-bottom: 2%; 
+    padding-bottom: 2%;
 }
 
 
 .project-title{
-    padding-top: 5%; 
+    padding-top: 5%;
     font-size: 36px;
     font-family: circularStd;
     color: #575757;
@@ -1687,8 +1692,8 @@ background-color: #555;
     .project-row {
         margin-left: 1%;
         margin-right: 1%;
-        /* padding-left: 8%;  
-        padding-right: 8%;  
+        /* padding-left: 8%;
+        padding-right: 8%;
         align-items: center;
         text-align: center;
         width: 100%; */
@@ -1754,21 +1759,21 @@ background-color: #555;
 ::-webkit-scrollbar {
     width: 5px;
   }
-  
+
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
   }
-   
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(100, 100, 100, 0.5); 
+    background: rgba(100, 100, 100, 0.5);
     border-radius: 100px;
   }
-  
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
   }
 
 .project-text-more {
@@ -1793,7 +1798,7 @@ background-color: #555;
 }
 
 .hint-4 {
-    
+
     font-size: 40px;
     background: linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
     background: -webkit-linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
